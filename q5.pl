@@ -11,7 +11,7 @@ STDOUT->autoflush(1);
 
 if ($#ARGV != 2 ) {
 	print "USAGE:\n" . 
-			"\t ./q5.pl <search_type> <data_type> <accession_number>\n" . 
+			"\t ./q5.pl search_type data_type accession_number\n" . 
 			"\t for example: $ ./q5.pl blastn protein accession_number ";
 	exit;
 }
